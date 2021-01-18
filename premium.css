@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+.content-table thead tr {
+    background-color: #046664;
+    color: #ffffff;
+    text-align: left;
+    isolation: isolate;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+/*009879*/
+
+
+
+@media only screen and (min-width: 768px) {
+/* for tablets */
+.box{
+float: left;
+width: 50%;
+}
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 300px;
+}
+}
+
+@media only screen and (min-width: 900px) {
+/* for small pcs that are bigger than tablets */
+.box{
+float: left;
+width: 50%;
+}
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+/* for small pcs that are bigger than tablets */
+.box{
+float: left;
+width: 40%;
+}
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1700px) {
+/* for pcs */
+.box{
+float: left;
+width: 25%;
+}
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+}
+}

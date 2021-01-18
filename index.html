@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Head9x' Bot website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="discordbot.css">
+</head>
+<header><button onclick="window.open('https://discordapp.com/oauth2/authorize?client_id=794607513714425867&scope=bot&permissions=67185670');"><img src="discord.png" style="height:50px;width:182px;"></button></header>
+
+<body>
+<section class="box">
+    <h2>Leaderboard:</h2>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Level</th>
+        </tr>
+      </thead>
+        <tbody id=list>
+          
+        </tbody>      
+    </table>  
+</section>
+
+<section class="box">
+    <h2>Servers:</h2>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Prefix</th>
+          <th>Ping on lvlup</th>
+        </tr>
+      </thead>
+        <tbody id=servers>
+          
+        </tbody>      
+    </table>
+</section>
+
+<section class="box">
+    <h2>Message Statistics:</h2>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Messages sent</th>
+        </tr>
+      </thead>
+        <tbody id=msgstats>
+          
+        </tbody>      
+    </table>
+</section>
+
+<section class="box">
+    <h2>Help:</h2>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Commands</th>
+        </tr>
+      </thead>
+        <tbody id=help>
+          <tr><th>The commands are not case sensitive</th></tr>
+          <tr><th>--Everyone--</th></tr>
+          <tr><td>Help - Lists available commands</td></tr>
+          <tr><td>Isgay [@user] - Finds out if user is gay</td></tr>
+          <tr><td>Author - Tells you who made the bot</td></tr>
+          <tr><td>Website - Gives you the website url</td></tr>
+          <tr><td>Name-is? - Tells you a bit about the bot</td></tr>
+          <tr><td>Injurycounter - tells you the time since your last injury</td></tr>
+          <tr><td>Resetinjurycounter - Resets the time since your last injury<br />And informs you how long ago it was</td></tr>
+          <tr><th>--Admins--</th></tr>
+          <tr><td>Kick [@user] [reason] - Kicks the mentioned user</td></tr>
+          <tr><td>Ban [@user] [reason] - Bans the mentioned user</td></tr>
+          <tr><td>Serverprefix - Changes this servers command prefix</td></tr>
+          <tr><td>Bulkdel [amount] - Deletes as many messages as you want</td></tr>
+          <tr><td>Setlevelchannel - Sets the LevelUp channel to the current channel</td></tr>
+          <tr><td>Shouldping - Sets whether or not the levelling user is pinged (1/0)</td></tr>
+          <tr><th>--Owner--</th></tr>
+          <tr><td>Isplaying - Sets status for next restart</td></tr>
+          <tr><td>Restart - Restarts the bot faster than you can blink</td></tr>
+          <tr><td>Updatestatus - Loads game from FireBase</td></tr>
+          <tr><td>ResetServer - [id] [prefix] Overwrites website data</td></tr>
+          <tr><td>NewGame - [text] Sets game manually, without overwriting FireBase</td></tr>
+        </tbody>      
+    </table>
+</section>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-functions.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>  function addDarkmodeWidget() { new Darkmode().showWidget(); } window.addEventListener('load', addDarkmodeWidget);</script>
+<script type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>
