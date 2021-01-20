@@ -1,1 +1,1 @@
-This repository is unlike most of my former repositories not made for keeping track of what was made when and making sure that I can go back. It is made for me to share the source for my current website located on https://bot.head9x.dk
+This repository is unlike most of my former repositories not made for keeping track of what was made when and making sure that I can go back. It is made for me to share the source for the website of my discord bot. The website is located on https://bot.head9x.dk
